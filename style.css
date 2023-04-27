@@ -1,0 +1,179 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-image:url('mithunbro/evolt.jpg');
+  background-size: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 50px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav {
+  float: right;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url('hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff3f3;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #222;
+}
+
+.btn-primary {
+  background-color: #f44336;
+  margin-right: 10px;
+}
+
+.btn-secondary {
+  background-color: #333;
+}
+
+/* About us section styles */
+.about-us {
+
+  background-color: #f2f2f2;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+.about-us p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* Classes section styles */
+.classes {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.classes h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+
+}
+
+.classes ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.classes li {
+  margin-right: 20px;
+}
+
+.classes li:last-child {
+  margin-right: 0;
+}
+
+.classes li a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid #f44336;
+  color: #ffffff;
+  text-decoration: none;
+}
+.final{
+  color: #f2f2f2;
+}
